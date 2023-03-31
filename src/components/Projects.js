@@ -1,8 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,34 +8,47 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "PokemonApi",
+      description: "fetch 50 pokemon Api with power",
+      imgUrl: "https://wallpapercave.com/wp/wp4924025.jpg",
+      projectLink:"https://moonlit-vacherin-d242d4.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/pokemon-2nd",
+
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Calculatur",
+      description: "Designed by HTML & CSS",
+      imgUrl:"https://wallpapercave.com/wp/wp7718051.jpg",
+      projectLink:"https://dreamy-smakager-959409.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/DAY-15-TASK-DOM-calculator-",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Dashboard",
+      description: "Simple dashbord created by Bootstrap with ReactJS",
+      imgUrl: "https://wallpapercave.com/dwp1x/wp6350573.jpg",
+      projectLink:"https://admirable-dieffenbachia-cf4f49.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/TASK-25-DashBoard",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Room Booking site(Demo)",
+      description: "Design & Developed by ReactJS",
+      imgUrl:"https://wallpapercave.com/wp/wp7718000.jpg",
+      projectLink:"https://zinroom-booking.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/Front-end-repo-ZenBook-Balarathinam-T-frontend",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Rental product UI design",
+      description: "Design and built by ReactJs & MaterialUI",
+      imgUrl: "https://wallpapercave.com/wp/wp6734584.png",
+      projectLink:"https://helpful-bublanina-7fda66.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/webcode-rentalx-Ui-design",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Newspaper UI design ",
+      description: "Design by HTML & CSS",
+      imgUrl: "https://wallpapercave.com/dwp1x/wp6351045.jpg",
+      projectLink:"https://spiffy-yeot-1484d3.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/DAY12-TASK2",
     },
   ];
 
@@ -51,7 +61,6 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
@@ -79,11 +88,11 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Tab.Pane eventKey="second">
+                      <p>Empty</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Empty</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

@@ -1,10 +1,5 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -35,23 +30,35 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png" alt="Image" />
+                                <h5>HTML5</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src="https://devsouth.us/images/css3_badge.png" alt="Image" />
+                                <h5>CSS3</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src="https://www.freepnglogos.com/uploads/javascript-png/js-logo-png-5.png" alt="Image" />
+                                <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png" alt="Image" />
+                                <h5>ReactJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src="https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png" alt="Image" />
+                                <h5>Node.js</h5>
+                            </div>
+                            <div className="item">
+                                <img src="https://1000marcas.net/wp-content/uploads/2021/06/MongoDB-Logo.png" alt="Image" />
+                                <h5>MongoDB</h5>
+                            </div>
+                            <div className="item">
+                                <img src="https://th.bing.com/th/id/R.8251fe76d7487a28b07603515b300964?rik=H7lrBp652zDaWg&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f5848309bcef1014c0b5e4a9a.png&ehk=N%2fi7UuvK4YyoLcxusdDEWeftPaGIfNJl2VmpTOtLt%2bA%3d&risl=&pid=ImgRaw&r=0" alt="Image" />
+                                <h5>Redux</h5>
                             </div>
                         </Carousel>
                     </div>
