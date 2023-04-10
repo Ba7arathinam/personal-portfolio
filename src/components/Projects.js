@@ -8,6 +8,51 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "ToDo-App",
+      description: "Here I use basic react,redux,css styles to create this ToDo app",
+      imgUrl: "https://wallpapercave.com/wp/wp4924025.jpg",
+      projectLink:"https://incredible-lolly-4b8de3.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/To-do-Guvi-react-redux-session",
+
+    },
+    {
+      title: "Calculatur",
+      description: "Designed by HTML & CSS",
+      imgUrl:"https://wallpapercave.com/wp/wp7718051.jpg",
+      projectLink:"https://dreamy-smakager-959409.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/DAY-15-TASK-DOM-calculator-",
+    },
+    {
+      title: "Dashboard",
+      description: "Simple dashbord created by Bootstrap with ReactJS",
+      imgUrl: "https://wallpapercave.com/dwp1x/wp6350573.jpg",
+      projectLink:"https://admirable-dieffenbachia-cf4f49.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/TASK-25-DashBoard",
+    },
+    {
+      title: "Room Booking site(Demo)",
+      description: "Design & Developed by ReactJS",
+      imgUrl:"https://wallpapercave.com/wp/wp7718000.jpg",
+      projectLink:"https://zinroom-booking.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/Front-end-repo-ZenBook-Balarathinam-T-frontend",
+    },
+    {
+      title: "Rental product UI design",
+      description: "Design and built by ReactJs & MaterialUI",
+      imgUrl: "https://wallpapercave.com/wp/wp6734584.png",
+      projectLink:"https://helpful-bublanina-7fda66.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/webcode-rentalx-Ui-design",
+    },
+    {
+      title: "Newspaper UI design ",
+      description: "Design by HTML & CSS",
+      imgUrl: "https://wallpapercave.com/dwp1x/wp6351045.jpg",
+      projectLink:"https://spiffy-yeot-1484d3.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/DAY12-TASK2",
+    },
+  ];
+  const projects1 = [
+    {
       title: "PokemonApi",
       description: "fetch 50 pokemon Api with power",
       imgUrl: "https://wallpapercave.com/wp/wp4924025.jpg",
@@ -89,7 +134,18 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Empty</p>
+                    <Row>
+                        {
+                          projects1.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Empty</p>
