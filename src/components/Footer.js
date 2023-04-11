@@ -10,7 +10,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+          <b>𝐓 𝐁𝐀𝐋𝐀𝐑𝐀𝐓𝐇𝐈𝐍𝐀𝐌 </b>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
@@ -18,7 +18,7 @@ export const Footer = () => {
               <a href="https://github.com/Ba7arathinam?tab=repositories"><img src={navIcon2} alt="Icon" /></a>
               <a href="https://www.instagram.com/ba7aaa_/"><img src={navIcon3} alt="Icon" /></a>
             </div>
-            <p>Copyright 2023. All Rights Reserved</p>
+            <p>Copyright 2023. All Rights Reserved by Balarathinam</p>
           </Col>
         </Row>
       </Container>
