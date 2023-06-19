@@ -2,34 +2,10 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
-import TrackVisibility from 'react-on-screen';
+
 
 export const Projects = () => {
 
-  const projects1 = [
-    {
-      title: "ToDo-App",
-      description: "Here I use basic react,redux,css styles to create this ToDo app",
-      imgUrl: "https://wallpapercave.com/wp/wp7718000.jpg",
-      projectLink:"https://incredible-lolly-4b8de3.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/To-do-Guvi-react-redux-session",
-
-    },
-    {
-      title: "Movies-Rating-App",
-      description: "In this app ,I use Advance JS,mongoDB,mock API for data,MaterialUI for Design",
-      imgUrl:"https://wallpapercave.com/dwp1x/wp6351045.jpg",
-      projectLink:"https://resplendent-strudel-4e8f07.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/movie-rating-app",
-    },
-    {
-      title: "Dashboard",
-      description: "This dashbord created by ReactJS with Bootstrap and some additional design tools like materialUI ",
-      imgUrl: "https://wallpapercave.com/wp/wp4924025.jpg",
-      projectLink:"https://storied-sunflower-23b681.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/dashboard-app",
-    },
-  ];
   const projects = [
     {
       title: "PokemonApi",
@@ -74,6 +50,28 @@ export const Projects = () => {
       projectLink:"https://spiffy-yeot-1484d3.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/DAY12-TASK2",
     },
+    {
+      title: "ToDo-App",
+      description: "Here I use basic react,redux,css styles to create this ToDo app",
+      imgUrl: "https://wallpapercave.com/wp/wp7718000.jpg",
+      projectLink:"https://incredible-lolly-4b8de3.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/To-do-Guvi-react-redux-session",
+
+    },
+    {
+      title: "Movies-Rating-App",
+      description: "In this app ,I use Advance JS,mongoDB,mock API for data,MaterialUI for Design",
+      imgUrl:"https://wallpapercave.com/dwp1x/wp6351045.jpg",
+      projectLink:"https://resplendent-strudel-4e8f07.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/movie-rating-app",
+    },
+    {
+      title: "Dashboard",
+      description: "This dashbord created by ReactJS with Bootstrap and some additional design tools like materialUI ",
+      imgUrl: "https://wallpapercave.com/wp/wp4924025.jpg",
+      projectLink:"https://storied-sunflower-23b681.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/dashboard-app",
+    },
   ];
 
   return (
@@ -81,24 +79,12 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col size={12}>
-            <TrackVisibility>
-              {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+          
+              <div>
                 <h2>Projects</h2>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
+                
+                 
+                  
                       <Row>
                         {
                           projects.map((project, index) => {
@@ -111,28 +97,11 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="second">
-                    <Row>
-                        {
-                          projects1.map((project, index) => {
-                            return (
-                              <ProjectCard
-                                key={index}
-                                {...project}
-                                />
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Empty</p>
-                    </Tab.Pane>
-                  </Tab.Content>
-                </Tab.Container>
-              </div>}
-            </TrackVisibility>
+                   
+                  
+                
+
+              </div>
           </Col>
         </Row>
       </Container>

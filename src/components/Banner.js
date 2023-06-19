@@ -62,7 +62,7 @@ export const Banner = () => {
                   <p>I am passionate about exploring and building a projects, using various
 technologies. I am a frontend web developer well versed in HTML, CSS, and JavaScript and stand at a
 beginner-intermediate level in React JS .</p>
-                 <a className="v" href={Resume} >Download CV</a> 
+                 <a className="v" href={Resume} target="_blank">Download CV</a> 
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
