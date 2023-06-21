@@ -368,7 +368,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: rgb(16, 15, 15);
+  background: rgb(2,0,36);
+  background: linear-gradient(291deg, rgba(2,0,36,1) 38%, rgba(105,9,121,0.3) 87%, rgba(97,23,95,0.2893207282913166) 95%);
 }
 .project h2 {
 	font-size: 45px;
@@ -380,8 +381,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 30px 0;
 }
 
-.imgbx a{
-  padding: 0 10px 0 0;
+
+.proj-txt a{
+  text-decoration: none;
+  color: inherit;
+  background: linear-gradient(#efeef1,#d0c6eb);
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding:10px 20px;
+  margin: 20px 20px 20px 0;
+  transition: all 0.3s ease-in-out;
+  border-radius: 5000px;
+  justify-content: center;
+ letter-spacing: 2px;
+}
+
+.proj-txt a:hover{
+ transform: scale(1.15);
+ background: linear-gradient(#9365ff,#6f3bff);
+ color: #fff;
 }
 .proj-txt h4 {
   font-size: 30px;
@@ -393,7 +413,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-style: italic;
   font-weight: 400;
   font-size: 15px;
+  margin: 10px;
   letter-spacing: 0.8px;
+  margin-bottom: 20px;
 }
 .background-image-right {
   top: 20%;
