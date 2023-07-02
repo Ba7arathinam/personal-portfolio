@@ -1,7 +1,7 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+// import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
-import {SkillCard} from "./skillCard"
+// import {SkillCard} from "./skillCard"
 
 
 export const Skills = () => {
@@ -25,47 +25,46 @@ export const Skills = () => {
   //   }
   // };
 
-  const skills=[
-    {
-        img:"https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png",
-        toolName:"HTML",
-    },
-    {
-        img:"https://devsouth.us/images/css3_badge.png",
-        toolName:"CSS",
-    },
-    {
-        img:"https://www.freepnglogos.com/uploads/javascript-png/js-logo-png-5.png",
-        toolName:"JavaScript",
-    },
-    {
-        img:"https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png",
-        toolName:"React.js",
-    },
-    {
-        img:"https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png",
-        toolName:"Node.js",
-    },
-    {
-        img:"https://1000marcas.net/wp-content/uploads/2021/06/MongoDB-Logo.png",
-        toolName:"MongoDB",
-    },
-    {
-        img:"https://th.bing.com/th/id/R.8251fe76d7487a28b07603515b300964?rik=H7lrBp652zDaWg&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f5848309bcef1014c0b5e4a9a.png&ehk=N%2fi7UuvK4YyoLcxusdDEWeftPaGIfNJl2VmpTOtLt%2bA%3d&risl=&pid=ImgRaw&r=0",
-        toolName:"Redux",
-    },
-  ]
+//   const skills=[
+//     {
+//         img:"https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png",
+//         toolName:"HTML",
+//     },
+//     {
+//         img:"https://devsouth.us/images/css3_badge.png",
+//         toolName:"CSS",
+//     },
+//     {
+//         img:"https://www.freepnglogos.com/uploads/javascript-png/js-logo-png-5.png",
+//         toolName:"JavaScript",
+//     },
+//     {
+//         img:"https://logos-download.com/wp-content/uploads/2016/09/React_logo_logotype_emblem.png",
+//         toolName:"React.js",
+//     },
+//     {
+//         img:"https://logos-download.com/wp-content/uploads/2016/09/Node_logo_NodeJS.png",
+//         toolName:"Node.js",
+//     },
+//     {
+//         img:"https://1000marcas.net/wp-content/uploads/2021/06/MongoDB-Logo.png",
+//         toolName:"MongoDB",
+//     },
+//     {
+//         img:"https://th.bing.com/th/id/R.8251fe76d7487a28b07603515b300964?rik=H7lrBp652zDaWg&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f5848309bcef1014c0b5e4a9a.png&ehk=N%2fi7UuvK4YyoLcxusdDEWeftPaGIfNJl2VmpTOtLt%2bA%3d&risl=&pid=ImgRaw&r=0",
+//         toolName:"Redux",
+//     },
+//   ]
 
   return (
-    <section className="skill" id="skills">
-        <Container>
-            <Row>
-                <Col size={12}>
-                    <div className="skill-bx wow zoomIn">
+    <div className="skill">
+        
+   
+             <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
                         {/* <div  className="skill-slider justify-content-center align-items-center"> */}
-                        <Row>
-                        {
+                       
+                        {/* {
                           skills.map((skill, index) => {
                             return (
                               <SkillCard
@@ -74,8 +73,69 @@ export const Skills = () => {
                                 />
                             )
                           })
-                        }
-                      </Row>
+                        } */}
+                        <div className="flex">
+                            
+                        
+                        <div>      
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" /> </a> 
+                        </div>
+                        <div>
+                        <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5"/> </a> 
+                        </div>
+                        <div>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" /> </a> 
+                        </div>
+                        <div>
+                        <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" /> </a>
+                        </div>
+                        {/* <div>       
+<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
+ <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="150%"/> </a> 
+                         </div> */}
+                        <div>
+<a href="https://expressjs.com" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" /> </a>
+                        </div>
+                        {/* <div>
+                        <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"/> </a> 
+                        </div> */}
+                        <div>
+                        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" /> </a>  
+                        </div>
+                        <div>
+                        <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" /> </a>   
+                        </div>
+                        <div>    
+<a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"/> </a> 
+                        </div>
+                         {/* <div>
+<a href="https://postman.com" target="_blank" rel="noreferrer">
+ <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" /> </a> 
+                         </div> */}
+                         <div>
+                         <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" /> </a>
+                         </div>
+                         <div>
+                         <a href="https://redux.js.org" target="_blank" rel="noreferrer"> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" /> </a>
+                         </div>
+                         <div>                          
+ <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" /> </a> 
+                         </div>
+                        
+
+                         </div>
                             {/* <div className="item">
                                 <img src="" alt="Image"/>
                                 <h5>CSS3</h5>
@@ -101,11 +161,9 @@ export const Skills = () => {
                                 <h5>Redux</h5>
                             </div> */}
                         {/* </div> */}
-                    </div>
-                </Col>
-            </Row>
-        </Container>
+                   
         <img className="background-image-left" src={colorSharp} alt="Image" /> 
-    </section>
+        </div>
+        </div>
   )
 }
