@@ -15,7 +15,7 @@ export const Footer = () => {
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/balarathinam-t-350b5821b" target="_blank"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://github.com/Ba7arathinam?tab=repositories" target="_blank"><img src={navIcon2} alt="Icon" /></a>
+              <a href="https://github.com/Ba7arathinam" target="_blank"><img src={navIcon2} alt="Icon" /></a>
               <a href="mailto:bala01225@gmail.com" target="_blank"><img src={navIcon3} alt="Icon" /></a>
             </div>
             <p>Copyright 2023. All Rights Reserved by Balarathinam</p>
