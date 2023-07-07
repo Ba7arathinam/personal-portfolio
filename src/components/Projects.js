@@ -8,18 +8,37 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "PokemonApi",
+      title: "Spotify-Clone",
       description: "fetch 50 pokemon Api with power",
-      imgUrl: "https://www.dealntech.com/wp-content/uploads/2022/12/Pokemon-Card-Price-Checker.jpg",
+      imgUrl: "https://www.nd.codes/img/spotify2.png",
+      projectLink:"https://spotify-clone-app-bala.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/Spotify-clone-Frontend",
+      gitLink1:'https://github.com/Ba7arathinam/Spotify-clone-Backend',
+
+    },
+    {
+      title: "Equipment-Rental-App",
+      description: "fetch 50 pokemon Api with power",
+      imgUrl: "https://www.vevs.com/images/equipment-rental-software-3.jpg",
+      projectLink:"https://equipment-rental-app.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/Equipment-Rental-Frontend",
+      gitLink1:'https://github.com/Ba7arathinam/Equipment-Rental-Backend',
+
+    },
+    {
+      title: "Chat-Engine-App",
+      description: "fetch 50 pokemon Api with power",
+      imgUrl: "https://chat-engine-assets.s3.amazonaws.com/tutorials/pretty/thumbnail.png",
       projectLink:"https://moonlit-vacherin-d242d4.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/webcode-TASK",
+      gitLink:"https://github.com/Ba7arathinam/chat-app-Frontend",
+      gitLink1:'https://github.com/Ba7arathinam/chat-app-Backend',
 
     },
     {
       title: "Calculator",
       description: "Designed by HTML & CSS",
       imgUrl:"https://i.ytimg.com/vi/EuwzyB_FQNs/maxresdefault.jpg",
-      projectLink:"https://dreamy-smakager-959409.netlify.app/",
+      projectLink:"https://chat-engine-app-bala.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/DAY-15-TASK-DOM-calculator-",
     },
     {
@@ -28,6 +47,7 @@ export const Projects = () => {
       imgUrl:"https://uizard.io/static/4546ab451250ca3c17bbfbe28c1132e8/d9bdf/hotel-booking-web-cover.png",
       projectLink:"https://zinroom-booking.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/Front-end-repo-ZenBook-Balarathinam-T-frontend",
+      gitLink1:'https://github.com/Ba7arathinam/Front-end-repo-ZenBook-BookingSystem-Backend',
     },
     {
       title: "Rental product UI design",

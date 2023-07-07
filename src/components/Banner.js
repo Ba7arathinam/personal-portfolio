@@ -57,13 +57,13 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Balarathinam`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                {/* <span className="tagline">Welcome to my Portfolio</span> */}
+                <h2>{`Hi! I'm Balarathinam`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h2>
                   <p>I am passionate about exploring and building a projects, using various
 technologies. I am a frontend web developer well versed in HTML, CSS, and JavaScript and stand at a
 beginner-intermediate level in React JS .</p>
-                 <a className="v" href={Resume} target="_blank">Download CV</a> 
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                 <a className="v" href="https://drive.google.com/file/d/1XwVJ6oUIdivswlH-fjhUgw3HLBRvquMF/view?usp=drivesdk" target="_blank">Download CV</a> 
+                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
           </Col>
