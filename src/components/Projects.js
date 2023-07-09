@@ -9,7 +9,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Spotify-Clone",
-      description: "fetch 50 pokemon Api with power",
+      description: "In this project,I Create a simple spotify UI and fetch Api to get all songs.i get a api from Spotify for Developer",
       imgUrl: "https://www.nd.codes/img/spotify2.png",
       projectLink:"https://spotify-clone-app-bala.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/Spotify-clone-Frontend",
@@ -18,7 +18,7 @@ export const Projects = () => {
     },
     {
       title: "Equipment-Rental-App",
-      description: "fetch 50 pokemon Api with power",
+      description: "This project build with good UI and create product Api with MockApi.com to get product information",
       imgUrl: "https://www.vevs.com/images/equipment-rental-software-3.jpg",
       projectLink:"https://equipment-rental-app.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/Equipment-Rental-Frontend",
@@ -27,7 +27,7 @@ export const Projects = () => {
     },
     {
       title: "Chat-Engine-App",
-      description: "fetch 50 pokemon Api with power",
+      description: "It was basic chat-engine which was designed inbuild by npm-chat-engine package",
       imgUrl: "https://chat-engine-assets.s3.amazonaws.com/tutorials/pretty/thumbnail.png",
       projectLink:"https://moonlit-vacherin-d242d4.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/chat-app-Frontend",
