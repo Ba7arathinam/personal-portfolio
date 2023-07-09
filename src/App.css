@@ -88,7 +88,14 @@ select:focus {
     padding: 0 150px;
   }
 }
+@media (min-width:800px) {
+  main .container {
+    min-width: 70%;
+    padding: 0 50px;
+  }
 
+
+}
 p.success {
   color: green;
 }
