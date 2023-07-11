@@ -29,7 +29,7 @@ export const Projects = () => {
       title: "Chat-Engine-App",
       description: "It was basic chat-engine which was designed inbuild by npm-chat-engine package",
       imgUrl: "https://chat-engine-assets.s3.amazonaws.com/tutorials/pretty/thumbnail.png",
-      projectLink:"https://moonlit-vacherin-d242d4.netlify.app/",
+      projectLink:"https://chat-engine-app-bala.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/chat-app-Frontend",
       gitLink1:'https://github.com/Ba7arathinam/chat-app-Backend',
 
@@ -38,7 +38,7 @@ export const Projects = () => {
       title: "Calculator",
       description: "Designed by HTML & CSS",
       imgUrl:"https://i.ytimg.com/vi/EuwzyB_FQNs/maxresdefault.jpg",
-      projectLink:"https://chat-engine-app-bala.netlify.app/",
+      projectLink:"https://dreamy-smakager-959409.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/DAY-15-TASK-DOM-calculator-",
     },
     {
