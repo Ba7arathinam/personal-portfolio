@@ -26,6 +26,15 @@ export const Projects = () => {
 
     },
     {
+      title: "Login-Auth",
+      description: "In this project i build full Authentication for login use of JWT,Mongodb",
+      imgUrl: "https://media.licdn.com/dms/image/D4D12AQEKIhATYKXNfg/article-cover_image-shrink_720_1280/0/1662483669699?e=2147483647&v=beta&t=pYKbV88rZpLIAyzcJRCHjZqnhSoOEhhSUtSCi3-sX5M",
+      projectLink:"https://password-resets.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/Password_Reset_Flow_Frontend",
+      gitLink1:'https://github.com/Ba7arathinam/Password_Reset_Flow_Backend',
+
+    },
+    {
       title: "Chat-Engine-App",
       description: "It was basic chat-engine which was designed inbuild by npm-chat-engine package",
       imgUrl: "https://chat-engine-assets.s3.amazonaws.com/tutorials/pretty/thumbnail.png",
