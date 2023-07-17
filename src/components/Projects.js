@@ -35,6 +35,15 @@ export const Projects = () => {
 
     },
     {
+      title: "Blog-App",
+      description: "In this app I use CRUD operation to build a backend and in frontent i setup with react.js",
+      imgUrl: "https://i1.wp.com/theappentrepreneur.com/wp-content/uploads/2013/02/Blogging-Apps-For-Bloggers.jpg?fit=710%2C372&ssl=1",
+      projectLink:"https://blogging-apps.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/chat-app-Frontend",
+      gitLink1:'https://github.com/Ba7arathinam/chat-app-Backend',
+
+    },
+    {
       title: "Calculator",
       description: "Designed by HTML & CSS",
       imgUrl:"https://i.ytimg.com/vi/EuwzyB_FQNs/maxresdefault.jpg",
