@@ -79,59 +79,71 @@ export const Skills = () => {
                         
                         <div>      
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" /> </a> 
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" style={{maxHeight:'160px'}} alt="css3" /> </a> 
                         </div>
                         <div>
                         <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5"/> </a> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" style={{maxHeight:'160px'}} alt="html5"/> </a> 
                         </div>
                         <div>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" /> </a> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" style={{maxHeight:'160px'}} alt="javascript" /> </a> 
                         </div>
                         <div>
                         <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" /> </a>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" style={{maxHeight:'160px'}} alt="bootstrap" /> </a>
                         </div>
                         {/* <div>       
 <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">
- <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="150%"/> </a> 
+ <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" style={{maxHeight:'260px'}}  width="150%"/> </a> 
                          </div> */}
                         <div>
 <a href="https://expressjs.com" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" /> </a>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" style={{maxHeight:'160px'}} alt="express" /> </a>
                         </div>
                         {/* <div>
                         <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git"/> </a> 
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" style={{maxHeight:'160px'}}  alt="git"/> </a> 
                         </div> */}
                         <div>
                         <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" /> </a>  
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" style={{maxHeight:'160px'}}alt="mongodb" /> </a>  
                         </div>
                         <div>
                         <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" /> </a>   
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"style={{maxHeight:'160px'}} alt="mysql" /> </a>   
                         </div>
                         <div>    
 <a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs"/> </a> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" style={{maxHeight:'160px'}} alt="nodejs"/> </a> 
                         </div>
-                         {/* <div>
+                         <div>
 <a href="https://postman.com" target="_blank" rel="noreferrer">
- <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" /> </a> 
-                         </div> */}
+ <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" style={{minHeight:'120px'}}  alt="postman" /> </a> 
+                         </div>
                          <div>
                          <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" /> </a>
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" style={{maxHeight:'160px'}} alt="react" /> </a>
                          </div>
                          <div>
                          <a href="https://redux.js.org" target="_blank" rel="noreferrer"> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" /> </a>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" style={{maxHeight:'160px'}} alt="redux" /> </a>
                          </div>
                          <div>                          
  <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" /> </a> 
+ <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" style={{maxHeight:'160px'}} alt="sass" /> </a> 
+                         </div>
+                         <div>                          
+ <a href="https://mui.com/material-ui/getting-started/" target="_blank" rel="noreferrer">
+ <img src="https://mui.com/static/logo.png" style={{maxHeight:'160px'}} alt="material ui" /> </a> 
+                         </div>
+                         <div>                          
+ <a href="https://www.npmjs.com/products/teams" target="_blank" rel="noreferrer">
+ <img src="https://www.logolynx.com/images/logolynx/7f/7fb976a537620fed310872d533cd161c.png" style={{maxHeight:'160px'}} alt="material ui" /> </a> 
+                         </div>
+                         <div>                          
+ <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
+ <img src="https://mobilemancerblog.blob.core.windows.net/blog/2020/08/vs-code-logo-transp.png" style={{maxHeight:'160px'}} alt="material ui" /> </a> 
                          </div>
                         
 

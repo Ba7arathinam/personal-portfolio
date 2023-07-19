@@ -411,9 +411,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .flex {
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   flex-wrap: wrap;
   align-items: center;
+  padding: 10px;
 }
 
 .flex img {
