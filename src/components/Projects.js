@@ -17,12 +17,12 @@ export const Projects = () => {
 
     },
     {
-      title: "Equipment-Rental-App",
-      description: "This project build with good UI and create product Api with MockApi.com to get product information",
-      imgUrl: "https://blog.ezrentout.com/wp-content/uploads/2017/07/equipment-rental-software-1.png",
-      projectLink:"https://equipment-rental-app.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/Equipment-Rental-Frontend",
-      gitLink1:'https://github.com/Ba7arathinam/Equipment-Rental-Backend',
+      title: "ToDo-App",
+      description: "Here I use basic react,redux,css styles to create this ToDo app",
+      imgUrl: "https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-12-14/d2480830-3df5-11eb-9513-43e7f40c9d54.jpg",
+      projectLink:"https://too-do-apz.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/todo-app-frontend",
+      gitLink1:"https://github.com/Ba7arathinam/todo-app-backend",
 
     },
     {
@@ -35,15 +35,6 @@ export const Projects = () => {
 
     },
     {
-      title: "Chat-Engine-App",
-      description: "It was basic chat-engine which was designed inbuild by npm-chat-engine package",
-      imgUrl: "https://chat-engine-assets.s3.amazonaws.com/tutorials/pretty/thumbnail.png",
-      projectLink:"https://chat-engine-app-bala.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/chat-app-Frontend",
-      gitLink1:'https://github.com/Ba7arathinam/chat-app-Backend',
-
-    },
-    {
       title: "Blog-App",
       description: "In this app I use CRUD operation to build a backend and in frontent i setup with react.js",
       imgUrl: "https://i1.wp.com/theappentrepreneur.com/wp-content/uploads/2013/02/Blogging-Apps-For-Bloggers.jpg?fit=710%2C372&ssl=1",
@@ -53,11 +44,13 @@ export const Projects = () => {
 
     },
     {
-      title: "Calculator",
-      description: "Designed by HTML & CSS",
-      imgUrl:"https://i.ytimg.com/vi/EuwzyB_FQNs/maxresdefault.jpg",
-      projectLink:"https://dreamy-smakager-959409.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/DAY-15-TASK-DOM-calculator-",
+      title: "Equipment-Rental-App",
+      description: "This project build with good UI and create product Api with MockApi.com to get product information",
+      imgUrl: "https://blog.ezrentout.com/wp-content/uploads/2017/07/equipment-rental-software-1.png",
+      projectLink:"https://equipment-rental-app.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/Equipment-Rental-Frontend",
+      gitLink1:'https://github.com/Ba7arathinam/Equipment-Rental-Backend',
+
     },
     {
       title: "Room Booking site(Demo)",
@@ -68,33 +61,12 @@ export const Projects = () => {
       gitLink1:'https://github.com/Ba7arathinam/Front-end-repo-ZenBook-BookingSystem-Backend',
     },
     {
-      title: "Rental product UI design",
-      description: "Design and built by ReactJs & MaterialUI",
-      imgUrl: "https://reactjsexample.com/content/images/2022/04/Code-2022-20-08-10.jpg",
-      projectLink:"https://helpful-bublanina-7fda66.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/webcode-rentalx-Ui-design",
-    },
-    {
-      title: "Disney+ Hotstar UI design",
-      description: "Design and built by ReactJs & MaterialUI",
-      imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Oc0kBtwKgA1ZxrJ39JKSTE4K9GkVqRfRw1NFDrGBXehlJx1Ko6xnnmnemRfCSJ10nvE&usqp=CAU",
-      projectLink:"https://disneyplusehotstar.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/Disney-Hostar-UI",
-    },
-    // {
-    //   title: "Newspaper UI design ",
-    //   description: "Design by HTML & CSS",
-    //   imgUrl: "https://wallpapercave.com/dwp1x/wp6351045.jpg",
-    //   projectLink:"https://spiffy-yeot-1484d3.netlify.app/",
-    //   gitLink:"https://github.com/Ba7arathinam/DAY12-TASK2",
-    // },
-    {
-      title: "ToDo-App",
-      description: "Here I use basic react,redux,css styles to create this ToDo app",
-      imgUrl: "https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-12-14/d2480830-3df5-11eb-9513-43e7f40c9d54.jpg",
-      projectLink:"https://too-do-apz.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/todo-app-frontend",
-      gitLink1:"https://github.com/Ba7arathinam/todo-app-backend",
+      title: "Chat-Engine-App",
+      description: "It was basic chat-engine which was designed inbuild by npm-chat-engine package",
+      imgUrl: "https://chat-engine-assets.s3.amazonaws.com/tutorials/pretty/thumbnail.png",
+      projectLink:"https://chat-engine-app-bala.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/chat-app-Frontend",
+      gitLink1:'https://github.com/Ba7arathinam/chat-app-Backend',
 
     },
     {
@@ -105,12 +77,40 @@ export const Projects = () => {
       gitLink:"https://github.com/Ba7arathinam/movie-rating-app",
     },
     {
+      title: "Disney+ Hotstar UI design",
+      description: "Design and built by ReactJs & MaterialUI",
+      imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Oc0kBtwKgA1ZxrJ39JKSTE4K9GkVqRfRw1NFDrGBXehlJx1Ko6xnnmnemRfCSJ10nvE&usqp=CAU",
+      projectLink:"https://disneyplusehotstar.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/Disney-Hostar-UI",
+    },
+    {
       title: "Dashboard",
       description: "This dashbord created by ReactJS with Bootstrap and some additional design tools like materialUI ",
       imgUrl: "https://i.ytimg.com/vi/aT4hBwdoEyw/maxresdefault.jpg",
       projectLink:"https://storied-sunflower-23b681.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/dashboard-app",
     },
+    {
+      title: "Calculator",
+      description: "Designed by HTML & CSS",
+      imgUrl:"https://i.ytimg.com/vi/EuwzyB_FQNs/maxresdefault.jpg",
+      projectLink:"https://dreamy-smakager-959409.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/DAY-15-TASK-DOM-calculator-",
+    },
+    {
+      title: "Rental product UI design",
+      description: "Design and built by ReactJs & MaterialUI",
+      imgUrl: "https://reactjsexample.com/content/images/2022/04/Code-2022-20-08-10.jpg",
+      projectLink:"https://helpful-bublanina-7fda66.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/webcode-rentalx-Ui-design",
+    },
+    // {
+    //   title: "Newspaper UI design ",
+    //   description: "Design by HTML & CSS",
+    //   imgUrl: "https://wallpapercave.com/dwp1x/wp6351045.jpg",
+    //   projectLink:"https://spiffy-yeot-1484d3.netlify.app/",
+    //   gitLink:"https://github.com/Ba7arathinam/DAY12-TASK2",
+    // },
   ];
 
   return (
