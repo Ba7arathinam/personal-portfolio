@@ -8,7 +8,7 @@ export const ProjectCard = ({ title, description, imgUrl,projectLink,gitLink,git
   return (
     <Col size={12} sm={6} md={4}>
       <div className="imgbx">
-        <img src={imgUrl} />
+        <img style={{maxHeight:'260px'}} src={imgUrl} />
         <div className="proj-txt">
           <h4>{title}</h4>
           <span>{description}</span>

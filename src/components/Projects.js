@@ -19,7 +19,7 @@ export const Projects = () => {
     {
       title: "Equipment-Rental-App",
       description: "This project build with good UI and create product Api with MockApi.com to get product information",
-      imgUrl: "https://www.vevs.com/images/equipment-rental-software-3.jpg",
+      imgUrl: "https://blog.ezrentout.com/wp-content/uploads/2017/07/equipment-rental-software-1.png",
       projectLink:"https://equipment-rental-app.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/Equipment-Rental-Frontend",
       gitLink1:'https://github.com/Ba7arathinam/Equipment-Rental-Backend',
@@ -74,6 +74,13 @@ export const Projects = () => {
       projectLink:"https://helpful-bublanina-7fda66.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/webcode-rentalx-Ui-design",
     },
+    {
+      title: "Disney+ Hotstar UI design",
+      description: "Design and built by ReactJs & MaterialUI",
+      imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6Oc0kBtwKgA1ZxrJ39JKSTE4K9GkVqRfRw1NFDrGBXehlJx1Ko6xnnmnemRfCSJ10nvE&usqp=CAU",
+      projectLink:"https://disneyplusehotstar.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/Disney-Hostar-UI",
+    },
     // {
     //   title: "Newspaper UI design ",
     //   description: "Design by HTML & CSS",
@@ -85,8 +92,9 @@ export const Projects = () => {
       title: "ToDo-App",
       description: "Here I use basic react,redux,css styles to create this ToDo app",
       imgUrl: "https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-12-14/d2480830-3df5-11eb-9513-43e7f40c9d54.jpg",
-      projectLink:"https://incredible-lolly-4b8de3.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/To-do-Guvi-react-redux-session",
+      projectLink:"https://too-do-apz.netlify.app/",
+      gitLink:"https://github.com/Ba7arathinam/todo-app-frontend",
+      gitLink1:"https://github.com/Ba7arathinam/todo-app-backend",
 
     },
     {
