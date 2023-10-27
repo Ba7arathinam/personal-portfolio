@@ -7,15 +7,15 @@ import 'animate.css';
 export const Projects = () => {
 
   const projects = [
-    {
-      title: "Spotify-Clone",
-      description: "In this project,I Create a simple spotify UI and fetch Api to get all songs.i get a api from Spotify for Developer",
-      imgUrl: "https://www.nd.codes/img/spotify2.png",
-      projectLink:"https://spotify-clone-app-bala.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/Spotify-clone-Frontend",
-      gitLink1:'https://github.com/Ba7arathinam/Spotify-clone-Backend',
+    // {
+    //   title: "Spotify-Clone",
+    //   description: "In this project,I Create a simple spotify UI and fetch Api to get all songs.i get a api from Spotify for Developer",
+    //   imgUrl: "https://www.nd.codes/img/spotify2.png",
+    //   projectLink:"https://spotify-clone-app-bala.netlify.app/",
+    //   gitLink:"https://github.com/Ba7arathinam/Spotify-clone-Frontend",
+    //   gitLink1:'https://github.com/Ba7arathinam/Spotify-clone-Backend',
 
-    },
+    // },
     {
       title: "ToDo-App",
       description: "Here I use basic react,redux,css styles to create this ToDo app",
@@ -52,23 +52,23 @@ export const Projects = () => {
       gitLink1:'https://github.com/Ba7arathinam/Equipment-Rental-Backend',
 
     },
-    {
-      title: "Room Booking site(Demo)",
-      description: "Design & Developed by ReactJS",
-      imgUrl:"https://uizard.io/static/4546ab451250ca3c17bbfbe28c1132e8/d9bdf/hotel-booking-web-cover.png",
-      projectLink:"https://zinroom-booking.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/Front-end-repo-ZenBook-Balarathinam-T-frontend",
-      gitLink1:'https://github.com/Ba7arathinam/Front-end-repo-ZenBook-BookingSystem-Backend',
-    },
-    {
-      title: "Chat-Engine-App",
-      description: "It was basic chat-engine which was designed inbuild by npm-chat-engine package",
-      imgUrl: "https://chat-engine-assets.s3.amazonaws.com/tutorials/pretty/thumbnail.png",
-      projectLink:"https://chat-engine-app-bala.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/chat-app-Frontend",
-      gitLink1:'https://github.com/Ba7arathinam/chat-app-Backend',
+    // {
+    //   title: "Room Booking site(Demo)",
+    //   description: "Design & Developed by ReactJS",
+    //   imgUrl:"https://uizard.io/static/4546ab451250ca3c17bbfbe28c1132e8/d9bdf/hotel-booking-web-cover.png",
+    //   projectLink:"https://zinroom-booking.netlify.app/",
+    //   gitLink:"https://github.com/Ba7arathinam/Front-end-repo-ZenBook-Balarathinam-T-frontend",
+    //   gitLink1:'https://github.com/Ba7arathinam/Front-end-repo-ZenBook-BookingSystem-Backend',
+    // },
+    // {
+    //   title: "Chat-Engine-App",
+    //   description: "It was basic chat-engine which was designed inbuild by npm-chat-engine package",
+    //   imgUrl: "https://chat-engine-assets.s3.amazonaws.com/tutorials/pretty/thumbnail.png",
+    //   projectLink:"https://chat-engine-app-bala.netlify.app/",
+    //   gitLink:"https://github.com/Ba7arathinam/chat-app-Frontend",
+    //   gitLink1:'https://github.com/Ba7arathinam/chat-app-Backend',
 
-    },
+    // },
     {
       title: "Movies-Rating-App",
       description: "In this app ,I use Advance JS,mongoDB,mock API for data,MaterialUI for Design",
@@ -83,20 +83,20 @@ export const Projects = () => {
       projectLink:"https://disneyplusehotstar.netlify.app/",
       gitLink:"https://github.com/Ba7arathinam/Disney-Hostar-UI",
     },
-    {
-      title: "Dashboard",
-      description: "This dashbord created by ReactJS with Bootstrap and some additional design tools like materialUI ",
-      imgUrl: "https://i.ytimg.com/vi/aT4hBwdoEyw/maxresdefault.jpg",
-      projectLink:"https://storied-sunflower-23b681.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/dashboard-app",
-    },
-    {
-      title: "Calculator",
-      description: "Designed by HTML & CSS",
-      imgUrl:"https://i.ytimg.com/vi/EuwzyB_FQNs/maxresdefault.jpg",
-      projectLink:"https://dreamy-smakager-959409.netlify.app/",
-      gitLink:"https://github.com/Ba7arathinam/DAY-15-TASK-DOM-calculator-",
-    },
+    // {
+    //   title: "Dashboard",
+    //   description: "This dashbord created by ReactJS with Bootstrap and some additional design tools like materialUI ",
+    //   imgUrl: "https://i.ytimg.com/vi/aT4hBwdoEyw/maxresdefault.jpg",
+    //   projectLink:"https://storied-sunflower-23b681.netlify.app/",
+    //   gitLink:"https://github.com/Ba7arathinam/dashboard-app",
+    // },
+    // {
+    //   title: "Calculator",
+    //   description: "Designed by HTML & CSS",
+    //   imgUrl:"https://i.ytimg.com/vi/EuwzyB_FQNs/maxresdefault.jpg",
+    //   projectLink:"https://dreamy-smakager-959409.netlify.app/",
+    //   gitLink:"https://github.com/Ba7arathinam/DAY-15-TASK-DOM-calculator-",
+    // },
     {
       title: "Rental product UI design",
       description: "Design and built by ReactJs & MaterialUI",
