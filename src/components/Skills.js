@@ -143,7 +143,7 @@ export const Skills = () => {
                          </div>
                          <div>                          
  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
- <img src="https://mobilemancerblog.blob.core.windows.net/blog/2020/08/vs-code-logo-transp.png" style={{maxHeight:'160px'}} alt="material ui" /> </a> 
+ <img src="https://mobilemancerblog.blob.core.windows.net/blog/2020/08/vs-code-logo-transp.png" style={{maxHeight:'160px'}} alt="vs code" /> </a> 
                          </div>
                         
 
