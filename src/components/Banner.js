@@ -9,7 +9,7 @@ import {
 } from "@phosphor-icons/react";
 import { metrics, profile } from "../data/portfolio";
 
-const orbitItems = ["Angular", "Node", "LoopBack", "MySQL", "TS"];
+const orbitItems = ["Angular", "Node", "ExpressJs", "MySQL", "TS"];
 
 export const Banner = () => {
   return (
